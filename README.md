@@ -31,8 +31,8 @@ The model used for this project consists of the following layers:
 
 The model was trained with different configurations of neurons and epochs, and the accuracy metric was recorded for each configuration. The recorded accuracy results are as follows:
 
-|  Epoch  | 5      | 10     | 15     | 20     |
-| Neurons |--------|--------|--------|--------|
+|Neurons\Epoch| 5      | 10     | 15     | 20     |
+|---------|--------|--------|--------|--------|
 | 128     | 0.8761 | 0.8852 | 0.8842 | 0.8854 |
 | 256     | 0.8711 | 0.8802 | 0.8818 | 0.8924 |
 | 512     | 0.8795 | 0.8838 | 0.8908 | 0.8899 |
