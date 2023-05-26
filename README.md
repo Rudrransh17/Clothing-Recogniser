@@ -40,10 +40,11 @@ The model was trained with different configurations of neurons and epochs, and t
 
 The accuracy results were compared for different configurations of neurons and epochs, providing insights into the model's performance.
 
+## Model Improvement  
+
+To improve the accuracy of model, 2 pairs of layers consisting a Conv2D layer of 32 filters and a MaxPooling2D layer were added before the Dense layer of 128 neurons. The model was trained for 5 epoch and it gave a accuracy of 0.8980 which was better  than a Simple Dense model of 1024 neurons trained to 20 epoch. The convolutional layers significantly improve the model by highlighting the important features present in the data and reducing the noise.
+
 ## Model Notebook
 
 For further details on the model development and training, please refer to the [model.ipynb](model.ipynb) notebook.
 
-## Future Development
-
-The project is still under development, with the next target being the inclusion of Conv2D and MaxPooling layers to enhance the model's performance.
